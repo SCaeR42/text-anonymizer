@@ -1,21 +1,22 @@
 {
-    "name": "scody/text-anonymizer",
-    "description": "Text anonymizer for masking sensitive data (emails, phones, cards)",
-    "type": "library",
-    "require": {
-        "php": ">=8.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "Scody\\TextAnonymizer\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Scody\\TextAnonymizer\\Tests\\": "tests/"
-        }
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^10.0"
+  "name": "scody/text-anonymizer",
+  "description": "Text anonymizer for masking sensitive data (emails, phones, cards)",
+  "type": "library",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Scody\\TextAnonymizer\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Scody\\TextAnonymizer\\Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0"
+  }
 }
